@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pccc.utillityapp.SettingsActivity">
+
+    <Button
+        android:id="@+id/sortListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sortList"
+        android:padding="@dimen/DefaultPadding"
+        android:text="@string/alphabetical_button_text"
+        android:textSize="@dimen/LargeTextSize" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearList"
+        android:padding="@dimen/DefaultPadding"
+        android:text="@string/clear_list_button_text" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getHome"
+        android:padding="@dimen/DefaultPadding"
+        android:text="@string/back_button_text" />
+
+</LinearLayout>

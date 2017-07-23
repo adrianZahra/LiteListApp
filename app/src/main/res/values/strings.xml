@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lite List</string>
+    <string name="action_settings">Settings</string>
+    <string name="TitleText">Please Enter The Name Of An Item And Press Add Item To Add It To Your List</string>
+    <string name="add_item_button_text">Add Item</string>
+    <string name="list_button_text">Tap An Item To Remove It From Your List</string>
+    <string name="clear_list_button_text">Clear Entire List</string>
+    <string name="alphabetical_button_text">Sort List Alphabetically</string>
+    <string name="back_button_text">Back</string>
+</resources>
